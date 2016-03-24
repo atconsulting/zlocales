@@ -1,0 +1,59 @@
+ru:
+  common:
+    zway:
+      probeType:
+        energy:
+          title: Потребляемая энергия
+          template: "%{value}"
+        meterElectric_kilowatt_per_hour:
+          title: Датчик расхода энергии
+          template: "%{value} кВ⋅ч"
+          unit: "кВ⋅ч"
+        meterElectric_watt:
+          title: Датчик мощности тока
+          template: "%{value} Вт"
+          unit: "Вт"
+        dimmer:
+          title: Диммер
+          template: "%{value}"
+        switchColor_rgb:
+          title: Цвет
+          template: "#%{value}"
+        switchColor_soft_white:
+          title: Темлый белый
+          template: "%{value}"
+        switchColor_cold_white:
+          title: Холодный белый
+          template: "%{value}"
+        meterElectric_voltage:
+          title: Вольтметр
+          template: "%{value} В"
+          unit: "В"
+        meterElectric_ampere:
+          title: Амперметр
+          template: "%{value} А"
+          unit: "А"
+        meterElectric_power_factor:
+          title: Коэффициент мощности
+          template: "%{value} ВА"
+          unit: "ВА"
+        battery:
+          title: Заряд
+          template: "%{value}%"
+          unit: "%"
+        alarmSensor_flood:
+          title: Датчик протечки
+          template_on: Обнаружена протечка
+          template_off: Протечка не обнаружена
+        temperature:
+          title: Термостат
+          template: "%{value} °С"
+          unit: "°С"
+        door:
+          title: Датчик открытия
+          template_on: Открыто
+          template_off: Закрыто
+        luminosity:
+          title: Датчик освещенности
+          template: "%{value} лк"
+          unit: "лк"
